@@ -1,0 +1,278 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-size:14px;
+    color:rgb(226, 226, 226);
+    background: rgb(15, 15, 15);
+    background-image: url(../Images/background.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding:4%;
+    font-family: 'Roboto Slab', serif;
+        
+}
+.container{
+    background: rgb(15, 15, 15,.74);
+    padding:30px;
+    
+}
+/* ------- Global styles to Headings------*/
+h1 h2 h3 h4{
+    font-family: 'Roboto', sans-serif;
+     font-weight: normal;
+}
+
+h1{
+    font-size:3.175em;
+    color: rgb(172, 140, 71);
+    
+}
+
+h2{                     /* h2 heading */
+    font-size: 2.369em;
+    font-weight: normal;
+}
+
+h3{
+    font-size: 1.777em;
+    font-weight: normal;
+}
+
+h4{
+    font-size: 1.333em;
+}
+/*----- logo Styles-----------*/
+
+.logo{
+    display: block;
+    }
+
+
+.logo img{
+    display: block;
+    width: 150px;
+    margin:0 auto;
+}
+/* ----- Navigation Styles   ---*/
+
+nav li{
+    list-style: none; /* seeting the style of list to none*/
+    text-align:center;
+    margin:20px 0;
+    
+}
+nav a{
+    display: block;
+    padding: 15px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: rgba(67, 67, 67, 0.17);
+    color: rgba(180, 180, 180)
+    
+}
+
+nav a:visited{
+    color:rgb(106, 106, 106);
+}
+nav a:hover{
+    color: rgb(255, 255, 255);
+    transition: 1s color;
+    background-color: rgba(64, 64, 61, 0.54);
+        
+}
+
+/* ----- featured information styles -------*/
+.feature-info h3{
+    margin: 5% 0;
+    border-bottom: 1px solid rgb(128, 128, 128);
+    
+}
+.feature-info p{
+    margin-bottom: 5%;
+    font-style: italic;
+    
+}
+.feature-info ul{
+    margin-bottom: 5%;
+    list-style: none;
+    font-style: italic;
+}
+/* ----- Button Styles--------*/
+.button{
+    background-color: rgb(172, 140, 71);
+    border-radius: 8px;
+    max-width:350px;
+}
+.button a{
+    color: rgb(226, 226, 226);
+    text-decoration: none;
+    font-style: normal;
+    text-transform: uppercase;
+    text-align: center;
+    display:block;
+    padding:10px 0;
+}
+.button a:hover{
+    background-color: rgb(126, 96, 32);
+    border-radius: 8px;
+}
+/*----------- Landing Area styes-----*/
+.landing p{
+    margin: 5% 0;
+}
+
+
+/* ----- footer Styles-----*/
+
+footer h4{
+    margin: 5% 0;
+    text-transform: uppercase;
+}
+
+/*----Media Queries for width for more than 750px-----*/
+@media screen and (min-width:750px){
+    nav ul{
+        position:relative;
+        right:-4%;
+    }
+    
+    
+    nav li{
+        float:left;
+        min-width:28%;
+        margin-left: 20px;
+        
+    }
+    .landing{
+        clear:both;
+        text-align: center;
+        max-width:850px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .feature-info{
+        float:left;
+        max-width:28%;
+        margin-left:5%;
+        margin-top: 40px;
+    }
+    .menupage .feature-info{
+        float:none;
+        margin-left: auto;
+        margin-right:auto;
+        text-align: center;
+        margin-top: 50px;
+        
+    }
+    .locationpage .landing{
+        float:left;
+        max-width: 50%;
+        
+    }
+    aside{
+        float:right;
+        max-width: 30%;
+    }
+    aside .feature-info{
+        float:none;
+        max-width:100%;
+    }
+    footer{
+        clear:both;
+        padding:20px;
+    }
+    
+    .gallery{
+        width:446px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .gallery img{
+        width:220px;
+    }
+  
+}
+
+@media screen and (min-width:1050px){
+    
+    .gallery{
+        width:570px;
+        margin-left:auto;
+        margin-right: auto;
+    }
+    
+    
+    .gallery img{
+        width: 280px;
+        
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
